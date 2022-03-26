@@ -29,3 +29,11 @@ heroku create open-weather-map-api-mongodb
 ```java
 heroku config:set MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/OpenWeatherMapWeatherDB?retryWrites=true&w=majority"
 ```
+
+```java
+git push heroku
+```
+
+```java
+heroku logs --tail
+```
